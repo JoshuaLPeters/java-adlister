@@ -1,0 +1,389 @@
+
+/* medium and below */
+@media (max-width: 991.999px) {
+    body {
+        padding-top: 7em;
+    }
+    .nav-name-title{
+        font-size: 3.4375em;
+    }
+    p {
+        color: white;
+        font-size: 2.5em;
+    }
+    h1 {
+        text-align: center;
+        font-size: 2.5em;
+    }
+    /* CAROUSEL STYLING AND SIZING */
+    .carousel-image{
+        margin-top: 3.125em;
+        width: 100%;
+        /*max-width: 736px;*/
+        height: auto;
+    }
+    .carousel-div-af-headshot{
+        max-height: 61.0625em;
+        overflow: hidden;
+    }
+    #af-headshot{
+        max-height: initial;
+
+    }
+    .carousel-div-cat-dad-headshot{
+        max-height: 61.0625em;
+        overflow: hidden;
+    }
+    #cat-dad-headshot{
+        max-height: initial;
+    }
+    .carousel-caption{
+        font-size: 1.0525em;
+        text-shadow: 2px 3px 5px black;
+        -webkit-text-stroke: .15px black;
+    }
+    .carousel-header{
+        font-size: 4.375em; /* testing */
+    }
+    .carousel-paragraph{
+        font-size: 3.4375em;
+    }
+    .first-word-header{
+        color: #BAC492;
+        font-size: 2.5em;
+    }
+    .last-word-header{
+        color: #799F4B;
+        font-size: 2.5em;
+    }
+    .custom-hr-line{
+        width: 100%;
+    }
+    /* SOFTWARE DEVELOPMENT MOBILE */
+    .smaller-software{
+        color: #BAC492;
+        font-size: 2.4em;
+    }
+    .smaller-development{
+        color: #799F4B;
+        font-size: 2.4em;
+    }
+    .large-title-first{
+        color: #BAC492;
+        text-align: center;
+        font-size: 2em;
+    }
+    .large-title-last{
+        color: #799F4B;
+        text-align: center;
+        font-size: 2em;
+    }
+
+
+}
+@media (min-width: 992px) {
+    body {
+        padding-top: 2.3em;
+    }
+    h1 {
+        font-size:15em;
+        text-align: center;
+    }
+    p {
+        color: white;
+        font-size: 1.25em;
+    }
+    /* NAVBAR LG DESTOP */
+    #navbarResponsive {
+        /*display: flex;*/
+        font-size: .25em;
+        /*justify-content: space-between;*/
+    }
+    .navbar-brand{
+        font-size: .25em;
+    }
+    /* title header large */
+    .large-title-header{
+        display: block;
+    }
+    .large-title-first{
+        color: #BAC492;
+        text-align: center;
+        font-size: 2em;
+    }
+    .large-title-last{
+        color: #799F4B;
+        text-align: center;
+        font-size: 2em;
+    }
+    /* CAROUSEL STYLING AND SIZING */
+    .carousel-image{
+        width: 100%;
+        /*max-width: 736px;*/
+        height: auto;
+    }
+    .carousel-caption{
+        font-size: 1.0525em;
+        text-shadow: 2px 3px 5px black;
+        -webkit-text-stroke: .15px black;
+    }
+    .carousel-header{
+        font-size: 2.375em;
+    }
+    .carousel-paragraph{
+        font-size: 2.4375em;
+    }
+    /* colored headers large */
+    .first-word-header{
+        color: #BAC492;
+        font-size: 1.3em;
+    }
+    .last-word-header{
+        color: #799F4B;
+        font-size: 1.3em;
+    }
+    .custom-hr-line{
+        width: 100%;
+    }
+    .large-about-me{
+        max-height: 38em;
+    }
+    /* SOFTWARE DEVELOPMENT SECTION */
+    .smaller-software{
+        color: #BAC492;
+        font-size: 1.15em;
+    }
+    .smaller-development{
+        color: #799F4B;
+        font-size: 1.15em;
+    }
+    .large-software-div-image{
+
+    }
+    .desktop-software-image{
+        /*box-shadow: 1px 1px 0px #BAC492,*/
+        /*            2px 2px 0px #BAC492,*/
+        /*            3px 3px 0px #BAC492,*/
+        /*            4px 4px 0px #BAC492,*/
+        /*            5px 5px 0px #BAC492,*/
+        /*            6px 6px 0px #BAC492,*/
+        /*            7px 7px 0px #BAC492;*/
+        box-shadow: 12px 12px;
+    }
+    #carouselExampleCaptions-desktop{
+        padding: 0;
+        /*box-shadow: 1px 1px 0px #BAC492,*/
+        /*2px 2px 0px #BAC492,*/
+        /*3px 3px 0px #BAC492,*/
+        /*4px 4px 0px #BAC492,*/
+        /*5px 5px 0px #BAC492,*/
+        /*6px 6px 0px #BAC492,*/
+        /*7px 7px 0px #BAC492;*/
+        box-shadow: 12px 12px;
+    }
+}
+
+
+
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+/*@media (min-width: 1200px) {*/
+/*    h1 {font-size:3rem;} !*1rem = 16px*!*/
+/*}*/
+
+h3 {
+    color: white;
+}
+
+ul {
+    color: white;
+    text-align: center;
+    list-style: none;
+}
+li {
+    color: white;
+}
+
+
+.smaller-super-bowl{
+    color: #BAC492;
+    font-size: 2.35em;
+}
+.smaller-commercial{
+    color: #799F4B;
+    font-size: 2.35em;
+}
+/* NAV BAR STYLING AND SIZING */
+
+.dropdown-item{
+    font-size: 1.25em;
+}
+.nav-link{
+    font-size: 3.4375em;
+}
+#navbar-icon{
+    font-size: 2.8125em;
+}
+.first-word-dropdown-item{
+    font-size: 2.8125em;
+    color: #BAC492;
+}
+.last-word-dropdown-item{
+    font-size: 2.8125em;
+    color: #799F4B;
+}
+.hr-line{
+    border: .125em solid #555A5F;
+}
+
+.about-me-header{
+    text-align: center;
+}
+.software-developer-header{
+    text-align: center;
+}
+.nav-social-media-icon{
+    width: 5.0em;
+    height: 5.0em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+.nav-linkedin-icon{ /* Needed separate Linkedin class since image was smaller than other icons */
+    width: 5.4em;
+    height: 5.4em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+.intro-paragraph{
+    margin: 1.25em;
+}
+.software-developer-paragraph{
+    margin: 1.25em;
+}
+
+/* banner images */
+.codeup-banner{
+    width: 100%;
+}
+.div-software-one-banner{
+    max-height: 21.875em;
+    overflow: hidden;
+}
+.software-one-banner{
+    width: 100%;
+    height: auto;
+    max-height: initial;
+}
+.div-list-img{
+    text-align: center;
+    display: block;
+}
+.list-img{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    display: block;
+    /*margin-top: 1.25em;*/
+}
+.coffee-list-img{
+    /*margin-top: 1.25em;*/
+}
+.rpg-banner-div{
+    max-height: 23.125em;
+    overflow: hidden;
+}
+.rpg-banner{
+    max-height: initial;
+}
+.capstone-banner-div{
+    max-height: 33.125em;
+    overflow: hidden;
+}
+.capstone-banner{
+    max-height: initial;
+
+}
+/* PROJECT TEXT CODE */
+.project-paragraph{
+    margin: 1.25em;
+}
+.project-title-first-word{
+    font-size: 1.875em;
+    color: #BAC492;
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 0;
+}
+.project-title-second-word{
+    font-size: 1.875em;
+    color: #799F4B;
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 0;
+}
+.div-list-group{
+    margin: 1.25em;
+}
+.list-group-item{
+    font-size: 1.875em;
+}
+.between-lists-header{
+    text-align: center;
+    font-style: italic;
+    margin: 1.25em;
+}
+/* COMPANY LOGOS MOBILE */
+.row{
+
+}
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.company-logo-img{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    display: block;
+}
+.footer{
+
+}
+/* AIR FORCE CSS */
+.usaf-banner-div{
+
+}
+.usaf-banner{
+
+}
+.list-group-item-primary{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.linkedin-column{
+    /*max-height: 5em;*/
+    /*max-width: 5em;*/
+}
+.nav-linkedin-icon-two{ /* Needed separate Linkedin class since image was smaller than other icons */
+    width: 10em;
+    height: 10em;
+    margin-right: 2em;
+    margin-top: .1em;
+    margin-bottom: 1em;
+}
+.nav-social-media-icon-footer{
+    width: 9.0em;
+    height: 9.0em;
+    display: block;
+
+    margin-right: 2em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
